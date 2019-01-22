@@ -14,40 +14,32 @@ body{
     height: 40px;
     border-radius:40px;
     padding: 10px; 
+    
+}
+.search-btn{
+        color: #87c5d1;
+        float: right;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
 }
 
-.search-btn{
-    color:#87c5d1;
-    float:right;
-    width:40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .search-text{
-    border: none;
-    background: none;
+    background:none;
     outline:none;
-    float:left;
-    padding:0;
-    color:white;
+    border: none;
+    float: left;
+    padding: 0;    
+    color: white;
     font-size: 16px;
     transition: 0.4s;
-    line-height: 40px;
-    width:0px;
-
+    line-height: 20px;
+    width: 0;
 }
+
 .search-box:hover > .search-text{
     width: 240px;
-    padding:0 6px;
-
-}
-.search-box:hover > .search-btn{
-    background: white;
-
-}
-a{
-    text-decoration: none;
+    padding: 0 6px;
 }
